@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs (uncomment if you do not want to track generated charts)
+# images/*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

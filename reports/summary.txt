@@ -1,0 +1,17 @@
+Workshop dataset notes
+======================
+Rows: 60 fictional student records
+Columns: student_id, study_hours_per_day, attendance_percent,
+         assignment_average, final_score
+
+Missing values are intentionally included in attendance_percent and
+assignment_average so learners can practice data cleaning.
+
+Run:
+    python src/analysis.py
+
+Expected output:
+- Preview of the cleaned data
+- Descriptive statistics
+- Correlations with final_score
+- images/study_vs_score.png
