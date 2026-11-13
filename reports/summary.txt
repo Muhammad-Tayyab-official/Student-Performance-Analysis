@@ -9,6 +9,7 @@ assignment_average so learners can practice data cleaning.
 
 Run:
     python src/analysis.py
+    Rscript src/analysis.R
 
 Expected output:
 - Preview of the cleaned data

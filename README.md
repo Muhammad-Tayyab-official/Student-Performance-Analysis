@@ -16,7 +16,8 @@ Student-Performance-Analysis/
 ├── data/
 │   └── students.csv
 ├── src/
-│   └── analysis.py
+│   ├── analysis.py
+│   └── analysis.R
 ├── reports/
 │   └── summary.txt
 └── images/
@@ -37,6 +38,16 @@ Student-Performance-Analysis/
    ```
 
 The script cleans missing values, prints descriptive statistics, calculates correlations, and saves a chart to `images/study_vs_score.png`.
+
+### R
+
+Install R, then run the equivalent base R analysis:
+```bash
+Rscript src/analysis.R
+```
+
+The R script performs the same cleaning, descriptive statistics, correlation
+analysis, and chart generation without requiring additional R packages.
 
 ## Suggested Git practice
 1. Create a Git repository with `git init`.
